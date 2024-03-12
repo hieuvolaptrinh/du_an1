@@ -1,0 +1,44 @@
+selectors nghĩa là bộ chọn lọc
+1.
+.class ( tổng quát class như bình thường ) 
+vd: .css_h1{
+    color: red;
+}
+
+2.
+.class1.class2 chọn tất cả các class1 và 2 được đặt trong thuộc tính của nó
+( ví dụ class="title heading"
+class=" title"
+class="heading title"
+=> nó sẽ css class 1 và 3
+)
+3.
+.class1 .class 2
+ví dụ: .name1 .name2
+
+4.
+*{
+    * là chọn tất cả các thẻ
+}
+5.
+element.class1
+ví dụ : div.box chọn tất cả class box có trong thẻ div
+6.
+element, element
+ví dụ: div, h1 nghĩa là chọn tất cả thẻ div và h1
+7.
+element element
+vd: div p
+chọn tất cả thẻ p trong div
+8.
+element > element
+vd: div > p
+chọn tất cả thẻ p là conn trực tiếp của div
+9.
+element + element
+vd: div + p
+chọn tất cả thẻ p đứng liền kề sau div
+10.
+element ~ element
+vd: div ~ p
+chọn tất cả thẻ p đứng sau thẻ div

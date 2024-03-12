@@ -1,0 +1,91 @@
+<!-- chú thích mình ấn Ctrl + /  -->
+    <!--
+        0. title Tên wedsite..........
+        1. h1- h6
+        2.p- paragraph : đoạn văn
+        3. img: link hình ảnh zo
+        4.a - anchor: nghĩa là mỏ neo -- hiểu nó nghĩ là thẻ gắn liên kết vao
+        5. ul liệt kê dấu chấm đầu
+        , ol liệt kê thứ tự
+        , li
+        + ul: unordered list: danh sách dấu chấm
+        +ol số thứ tự
+        +li : list
+        6. table
+            thead : đầu bảng
+                <th> dòng đầu tiên ( tiêu đề dòng )  </th>
+            tbody: thân bảng
+                <tr> 
+                    <td>  ứng với các cột </th>
+                </tr>( là dòng )
+        7. input ô nhập chữ vào
+         <input type="text">  Ô NHẬP CHỮ VÀO
+         <input type="checkbox">  ô đánh dấu tick
+         <input type="radio"> ô hình tròn
+        8. button nút
+        9. div tạo khối bao quanh
+    -->
+    
+<!doctype html>
+<html>
+    <head>
+        <title style="oke"> tiêu đề </title>
+        <meta charset = "utf-8">
+    </head>
+    <body>
+        <link rel="stylesheet" href="css_variable.css">
+        <button> cái nút</button>
+        <input type="text">
+        <input type="checkbox">
+        <input type="radio">
+        còn muốn chọn 1 trong nhiều cái thì phải đặt chung 1 cái tên
+        <input name="giới tính" type="radio">
+        <input name="giới tính" type="radio">
+        <input name="giới tính" type="radio">
+        <style>
+            h1{
+                color: red;
+                font-size: 50px;
+            }
+        </style>
+        <h1><p>shop acc <strong>hiếu võ</strong></p></h1>
+        <p>hiện nay sinh viên học <strong>tập và làm</strong> việc tại khu cựcasfgfdnsan</p>
+        <img src="nguồn hình ảnh có thể bỏ link vào " alt=" mô tả ảnh">
+        <a href="link gắn vào "> tên cái link để hiển thị</a>
+        <ol>
+            <li style="color: violet; font-size: 30px;">thứ 2</li>
+            <li>thứ 3</li>
+            <li>thứ 4</li>
+            <li>thứ 5</li>
+        </ol>
+    <!-- strong để in to chữ trong phần văn bản -->
+        <table>
+            <thead>
+                <th>stt</th>
+                <th>họ và tên</th>
+                <th>giới tính</th>
+                <th>điểm trung bình</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>võ nguyễn đại hiếu</td>
+                    <td>nam </td>
+                    <td>9.9</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>nguyễn văn a</td>
+                    <td> nam </td>
+                    <td>8.89</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>lê thị B</td>
+                    <td>nữ</td>
+                    <td>6.8</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

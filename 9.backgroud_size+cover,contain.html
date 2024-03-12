@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>backgroud-size với cover, contain</title>
+    </head>
+    <body>
+        <style>
+            .box {
+                width: 100%;
+                height: 100vh;
+                
+                background-image: url(https://minhtuanmobile.com/uploads/blog/tong-hop-anh-nen-dien-thoai-may-tinh-dep-cua-jingliu-full-hd-230911041231.jpg);
+                /* background-size: 100%; */
+                background-repeat: no-repeat;
+                background-size: contain; 
+                /*lấy cạch dài nhất của bức ảnh rồi phóng to thu nhỏ sẽ không bị cắt xén              chấp nhận có khoảng trắng    */
+               
+                /* background-size:cover; 
+                chọn cạnh dài nhất của bức ảnh rồi phóng to thu nhỏ vẫn chấp nhận bị cắt xén            không chấp nhận khoảng trắng
+                */
+            }
+        </style>
+        <div class="box"></div>
+    </body>
+</html>

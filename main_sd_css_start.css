@@ -1,0 +1,44 @@
+/* body {
+    position: relative;
+ } */
+ 
+ /* body:after {
+    content: '';
+    display: block;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    background-image: url('https://ductranminh.com/wp-content/uploads/2023/12/s1.webp'), url('https://ductranminh.com/wp-content/uploads/2023/12/s2.webp'), url('https://ductranminh.com/wp-content/uploads/2023/12/s3.webp');
+     animation: snow 10s linear infinite;
+ } */
+ *{
+    font-style: italic; 
+    /* in nghiêng tất cả */
+ }
+ @keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+ }
+ /* tuyết rơi */
+h1 {
+    color: rgba(0, 213, 255, 0.832);
+    font-size: 90px;
+}
+ #first {
+    color: rgb(245, 0, 245);
+    font-size: 20px;
+}
+/* .second-heading sử dụng để css Class còn # là CSS id */
+.second-heading{
+    color:aqua;
+    font-size: 20px;
+}
+
+
+
+

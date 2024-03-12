@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title style="">lớp giả trong css : CSS PSEUDO CLASSES</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <style>
+            .box{
+                width: 1000px;
+                height: 300px;
+                background: rgb(123, 0, 255);
+            }
+            .box::before{
+                content: "before";
+                background: red;
+                display: block;
+                /* tạo khối */
+                width: 50px;
+                height: 100px;
+                
+            }
+            .box::after{
+                content: "after";
+                background:blue;
+                display: block;
+                /* tạo khối */
+                width: 50px;
+                height: 100px;
+                
+            }
+            li:last-child{
+                color:rgb(42, 165, 65);
+
+            }
+            li:first-child{
+                font-size: 50px;
+            }
+            #hover:hover{
+                color:blue;
+
+            }
+            #active:active{
+                color: aqua;
+            }
+            h1::first-letter{
+                font-size: 100px;
+            }
+            h1::first-line{
+                color: red;
+            }
+            #selection::selection{
+                background-color: violet;
+                color: burlywood;
+            }
+            
+        </style>
+        <h1> pesudo classe css là gì nhỉ ? <br> hãy học đi</h1>
+        <div class="box"> </div>
+        <ul >
+            <li>:root</li>
+            <li id="hover">:hover hiển thị css khi di chuột vào</li>
+            <li id="active">:active bấm chuộc sẽ có thuộc tính </li>
+            <li>:last-child</li>
+            <li>:first-child</li>
+            <li>::befor</li>
+            <li>::after</li>
+            <li>::first-letter chữ cái đầu tiên</li>
+            <li>::first-line dòng chữ đầu tiên</li>
+            <li id="selection">::selection bôi chuột và sẽ thấy css</li>
+        </ul>
+    </body>
+</html>

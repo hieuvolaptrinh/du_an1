@@ -1,0 +1,7 @@
+:root{
+    /* đặt biến */
+    --text-color: red;
+}
+h1{
+    color: var(--text-color);
+}
